@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora</h1>
+        <form>
+            <input type="text" id="display" disabled>
+            <br>
+            <button type="button" onclick="appendToDisplay('7')">7</button>
+            <button type="button" onclick="appendToDisplay('8')">8</button>
+            <button type="button" onclick="appendToDisplay('9')">9</button>
+            <button type="button" onclick="appendToDisplay('/')">/</button>
+        <br>
+        <button type="button" onclick="appendToDisplay('4')">4</button>
+        <button type="button" onclick="appendToDisplay('5')">5</button>
+        <button type="button" onclick="appendToDisplay('6')">6</button>
+        <button type="button" onclick="appendToDisplay('*')">*</button>
+        <br>
+        <button type="button" onclick="appendToDisplay('1')">1</button>
+        <button type="button" onclick="appendToDisplay('2')">2</button>
+        <button type="button" onclick="appendToDisplay('3')">3</button>
+        <button type="button" onclick="appendToDisplay('-')">-</button>
+        <br>
+        <button type="button" onclick="appendToDisplay('0')">0</button>
+        <button type="button" onclick="appendToDisplay('.')">.</button>
+        <button type="button" onclick="calculate()">=</button>
+        <button type="button" onclick="clearDisplay()">C</button>
+    </form>
+    <script src="index.js" defer></script>
+</div>
+</body>
